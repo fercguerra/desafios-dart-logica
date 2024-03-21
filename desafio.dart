@@ -17,6 +17,9 @@ O cartão deve ter um número, bandeira, cvv, nome e data de validade, porém, o
 Baseado nisso, crie quantos model achar necessário e defina quais métodos cada model deve ter. */
 
 //Característica do Usuário:
+import 'dart:ffi';
+import 'dart:html';
+
 String? name;
 String? email;
 int? password;
@@ -24,3 +27,15 @@ int? phone;
 int? cpf;
 
 //Característica do Endereço:
+String? adress;
+String? district;
+String? city;
+String? state;
+int? number;
+int? cep;
+String? complemento;
+Bool? temComplemento;
+Float? rendaMensal;
+
+
+//Característica de conta
